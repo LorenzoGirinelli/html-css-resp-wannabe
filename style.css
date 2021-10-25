@@ -73,13 +73,19 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-  #lezioni .row>.left {
-    float: none;
-    margin: auto;
+  .row{
   }
+  #lezioni .row>.left,
   #lezioni .row>.right {
     float: none;
     margin: auto;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    float: none;
+    margin: auto;
+    padding: 15px 0;
   }
   img{
     height: 150px;
